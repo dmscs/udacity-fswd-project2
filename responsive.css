@@ -1,82 +1,72 @@
 .header__menu {
-  display: none;
+  display: none; 
+
 }
 
 .hero {
-  order: 10;
+  order: 10; 
+
 }
 
 @media screen and (max-width: 610px) {
   .hero {
-    order: 0;
-    width: 100%;
-    display: flex;
+    order: 0; 
+    width: 100%; 
+    display: flex; 
+
   }
   .header__logo {
-    height: 48px;
-    margin-right: 0.5em;
+    height: 48px; 
+    margin-right: 0.5em; 
+
   }
   .header__title {
-    margin-left: 0;
-    font-size: 2em;
+    margin-left: 0; 
+    font-size: 2em; 
     vertical-align: bottom; 
+
   }
   .header__subtitle {
-    margin-left: 0;
-    font-size: 1.5em;
+    margin-left: 0; 
+    font-size: 1.5em; 
     vertical-align: bottom; 
-  }
-  .left-sidebar {
-    width: 0px;
-    float:left;
+
   }
 }
 
 @media screen and (min-width: 611px) {
   .hero {
-    order: 0;
-    width: 100%;
-    display: flex;
-  }
-    .left-sidebar {
-    width: 0px;
-    float:left;
+    order: 0; 
+    width: 100%; 
+    display: flex; 
+
   }
 }
 
 @media screen and (min-width: 700px) {
   .hero {
-    width: 100%;
-    display: flex;
-  }
-  .left-sidebar {
-    width: 0px;
-    float:left;
+    width: 100%; 
+    display: flex; 
+
   }
 }
 
 @media screen and (min-width: 850px) {
   main, .header__inner, .content {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 850px; 
+    margin-left: auto; 
+    margin-right: auto; 
+
   }
   .container {
-    width: 900px
-  }
-  .left-sidebar {
-    width: 0px;
-    float:left;
+    width: 900px; 
+
   }
 }
 
 @media screen and (min-width: 1215px) {
   .container {
-    width: 900px
-  }
-  .left-sidebar {
-    width: 178px;
-    height: 100%;
-    float:left;
+    width: 900px; 
+    
   }
 }
